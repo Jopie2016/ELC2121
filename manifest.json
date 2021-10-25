@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Access-A-Check",
+    "description": "A Developer's guide to make software more accessable",
+    "version": "1.0",
+    "icons": { "128": "/images/icon128.png" },
+    "browser_action": {
+      "default_icon": "/images/icon16.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+  }
